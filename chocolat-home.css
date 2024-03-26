@@ -1,0 +1,113 @@
+/* Style sheet for the home page of the Chocolat */
+
+/*-----------------------------------------------------------
+				Entire page styling
+-----------------------------------------------------------*/
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-family: sans-serif;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+/* link for page color:
+https://www.canva.com/colors/color-palettes/scooping-ice-cream/
+
+Sand Dollar , Tan, Brown, Carafe
+
+#E4D4C8, #D0B49F, #A47551, #523A28
+*/
+
+body{
+	background: #523A28;
+	color: #e4d4c8;
+}
+
+/*-------------------------------------------------------------
+				Header and Body Section Styling
+---------------------------------------------------------------*/
+
+/*----------------- Top Bar Styling -----------------*/
+
+.headerBar{
+	
+	/* position: fixed; */
+	top: 0;
+	width: 100%;
+	padding: 1.3%;
+	background: #A47551;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 100;		
+}
+
+.logo{
+	font-size: 1.5rem;
+	color: #ededed;
+	font-weight: 60;
+}
+
+.rightBar{
+	margin-right: 1.0rem;
+	
+}
+
+.rightBar a{
+	font-size: 1.0rem;
+	text-decoration: none;
+	color: #ededed;
+	font-weight: 500;
+	margin-left: 1.0rem;
+	margin-right: 4.7rem;
+	transition: 0.3s;
+}
+
+.rightBar a:hover{
+	color: #523A28;
+}
+
+.rightBar a.selectPg{
+	border-bottom: 0.3rem solid #523A28;
+	color: #523A28;
+}
+
+/*----------------- Elements Styles bellow Top Bar--------------------------*/
+
+.topContain{
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 60%;
+	margin-top: 16vh;
+}
+
+.topContain img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;	
+	
+}
+
+h1, h2 {
+	margin: auto;
+	text-align: center;
+	width: 70%;
+}
+
+form {
+	width: 60%;
+	margin: auto;
+}
+
+input {
+	padding: 5px;
+}
+
+label {
+	margin: 5px;
+	padding: 5px;
+}
