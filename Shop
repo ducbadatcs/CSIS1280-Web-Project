@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Showcase</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Link to the external stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container mt-5">
+  <div class="row">
+    <!-- Product Card 1 -->
+    <div class="col-md-4 col-sm-6">
+      <div class="card product-card">
+        <img src="round chocolate.avif" alt="Balls Chocolate" class="balls-chocolate">
+        <div class="card-body">
+          <h5 class="card-title">Balls Chocolate</h5>
+          <p class="card-text">10 units</p>
+          <span class="price">$15</span>
+        </div>
+      </div>
+    </div>
+     <!-- Product Card 2 -->
+     <div class="col-md-4 col-sm-6">
+        <div class="card product-card">
+          <img src="square chocolate.avif" alt="Chocolate Bars" class="chocolate-bars">
+          <div class="card-body">
+            <h5 class="card-title">Chocolate Bars</h5>
+            <p class="card-text">1 unit</p>
+            <span class="price">$7</span>
+          </div>
+        </div>
+    <!-- Repeat for other products, just change the img src, title, text, and price accordingly -->
+    </div>
+     <div class="col-md-4 col-sm-6">
+        <div class="card product-card">
+         <img src="heart chocolate.avif" alt="Heart Chocolate" class="heart-chocolate">
+         <div class="card-body">
+            <h5 class="card-title">Heart Chocolates</h5>
+            <p class="card-text">6 units</p>
+            <span class="price">$11</span>
+         </div>
+        </div>
+     </div>
+</div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
