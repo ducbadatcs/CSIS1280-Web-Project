@@ -20,7 +20,7 @@ Sand Dollar , Tan, Brown, Carafe
 #E4D4C8, #D0B49F, #A47551, #523A28
 */
 
-body{
+body {
 	background: #523A28;
 	color: #e4d4c8;
 }
@@ -31,8 +31,8 @@ body{
 
 /*----------------- Top Bar Styling -----------------*/
 
-.headerBar{
-	
+.headerBar {
+
 	/* position: fixed; */
 	top: 0;
 	width: 100%;
@@ -41,21 +41,21 @@ body{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	z-index: 100;		
+	z-index: 100;
 }
 
-.logo{
+.logo {
 	font-size: 1.5rem;
 	color: #ededed;
 	font-weight: 60;
 }
 
-.rightBar{
+.rightBar {
 	margin-right: 1.0rem;
-	
+
 }
 
-.rightBar a{
+.rightBar a {
 	font-size: 1.0rem;
 	text-decoration: none;
 	color: #ededed;
@@ -65,18 +65,18 @@ body{
 	transition: 0.3s;
 }
 
-.rightBar a:hover{
+.rightBar a:hover {
 	color: #523A28;
 }
 
-.rightBar a.selectPg{
+.rightBar a.selectPg {
 	border-bottom: 0.3rem solid #523A28;
 	color: #523A28;
 }
 
 /*----------------- Elements Styles bellow Top Bar--------------------------*/
 
-.topContain{
+.topContain {
 	position: relative;
 	top: 0;
 	left: 0;
@@ -85,14 +85,15 @@ body{
 	margin-top: 16vh;
 }
 
-.topContain img{
+.topContain img {
 	width: 100%;
 	height: 100%;
-	object-fit: cover;	
-	
+	object-fit: cover;
+
 }
 
-h1, h2 {
+h1,
+h2 {
 	margin: auto;
 	text-align: center;
 	width: 70%;
@@ -110,4 +111,46 @@ input {
 label {
 	margin: 5px;
 	padding: 5px;
+}
+
+.balls-chocolate {
+	margin-bottom: 20px;
+}
+
+.balls-chocolate {
+	width: 100%;
+	/* Ensures image takes the card width /
+height: 90; / Maintains aspect ratio */
+}
+
+.balls-chocolate .price {
+	font-weight: bold;
+}
+
+.chocolate-bars {
+	margin-bottom: 20px;
+}
+
+.chocolate-bars {
+	width: 100%;
+	/* Ensures image takes the card width /
+height: auto; / Maintains aspect ratio */
+}
+
+.chocolate-bars .price {
+	font-weight: bold;
+}
+
+.heart-chocolate {
+	margin-bottom: 20px;
+}
+
+.heart-chocolate {
+	width: 100%;
+	/* Ensures image takes the card width /
+height: auto; / Maintains aspect ratio */
+}
+
+.heart-chocolate .price {
+	font-weight: bold;
 }
