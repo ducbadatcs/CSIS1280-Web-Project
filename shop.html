@@ -18,12 +18,12 @@
     <a href="" class="logo">Chocolat</a>
 
     <nav class="rightBar">
-        <a href="./index.html" class="selectPg">Home</a>
-        <a href="./contact.html">Contact Us</a>
-        <a href="./more_info.html">More Info</a>
-        <a href="./shop.html">Shop</a>
+      <a href="./index.html" class="selectPg">Home</a>
+      <a href="./contact.html">Contact Us</a>
+      <a href="./more_info.html">More Info</a>
+      <a href="./shop.html">Shop</a>
     </nav>
-</header>
+  </header>
   <div class="container mt-5">
     <div class="row">
       <!-- Product Card 1 -->
@@ -65,13 +65,14 @@
               <input type="number" name="heart-chocolate-units" id="hc-units" min="0" value="0">
               <label for="heart-chocolate-units">units</label>
             </p>
-            
+
             <span class="price">$11</span>
           </div>
         </div>
       </div>
     </div>
-    <button >Go to checkout</button>
+    <button onclick="checkout()">Go to checkout</button>
+    <p style="color: white;" id="checkout"></p>
 
     <!-- Bootstrap JS and dependencies -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
