@@ -48,7 +48,7 @@ height: auto; / Maintains aspect ratio */
 	display: none;
 }
 
-table, th, td {
+th, td {
 	border: 1px solid white;
 }
 
