@@ -39,3 +39,11 @@ height: auto; / Maintains aspect ratio */
 .heart-chocolate .price {
 	font-weight: bold;
 }
+
+#bc-units, #hc-units, #cb-units {
+	width: 50px;
+}
+
+#checkout {
+	display: none;
+}
