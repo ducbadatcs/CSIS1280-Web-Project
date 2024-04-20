@@ -47,3 +47,11 @@ height: auto; / Maintains aspect ratio */
 #checkout {
 	display: none;
 }
+
+table, th, td {
+	border: 1px solid white;
+}
+
+th, td {
+	padding: 5px;
+}
