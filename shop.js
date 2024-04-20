@@ -21,8 +21,14 @@ function checkout() {
 
   var total = 0;
   for (let i = 0; i < product_list.length; i++) {
-    ce.innerHTML += ``;
-    total += input_list[i] * price_list[i];
+    let price_of_item = price_list[i] * input_list[i];
+    ce.innerHTML += `
+    <td>${product_list[i]}</td>
+    <td>${price_list[i]}</td>
+    <td>${input_list[i]}</td>
+    <td>${price_of_item}</td>
+    `;
+    total += price_of_item;
   }
   ce.textContent += `Total price: $${total}`;
 }
